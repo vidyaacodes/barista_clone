@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+body {
+  padding-top: 80px; 
+}
+header {
+  width: 100%;
+  z-index: 1000; 
+}
+#logo {
+  height: 35px;
+  width: 74px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.diner-logo {
+  width: 71px;
+  height: 35px;
+  margin-left: 50px;
+}
+.navbar-toggler {
+  margin-right: 15px;
+  padding-right: 10px;
+  color: white;
+}
+button.navbar-toggler {
+  background: #f06341;
+  border-radius: 3px;
+  color: #fff;
+  
+}
+#navbarSupportedContent ul {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+ .navbar-nav{
+   flex-wrap: nowrap;
+} 
+
+
+.nav-item a {
+  color: #681d08;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 1rem;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* section 2 our story */
+.story-card {
+  padding: 30px;
+  background: #f7f1e9;
+  border-radius: 44px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 40px;
+}
+#side-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  height: auto;
+}
+.story-img {
+  width: 100%;
+  height: 430px;
+  overflow: hidden;
+  border-radius: 25px;
+  position: relative;
+}
+.story-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story-card h2 {
+  font-family: "roboto";
+  color: #f06341;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #4c3935;
+  font-family: "roboto";
+}
+.btn-primary {
+  background: #335558;
+  box-shadow: 3px 7px 0px 0px #f26644;
+  padding: 15px 50px;
+  border-radius: 15px;
+  font-family: Hobeaux-Bold;
+  font-size: 15px;
+}
+.btn-primary:hover {
+  background: #335558;
+}
+
+/* SECTION 3  our products*/
+.heading-2 {
+  font-family: "roboto";
+  color: #681d08;
+  font-size: 2rem;
+}
+.our-product {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.our-product-right img {
+  width: 214px;
+  height: 151px;
+}
+.our-product-right {
+  background: linear-gradient(268.96deg, #fadab2 0.93%, #e09a7d 98.69%);
+  padding: 10px;
+  border-radius: 25px;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto; 
+}
+.our-product-right h4 {
+  color: #681d08;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* SECTION 4 CAROUSEL 2 */
+.carousel-inner img {
+  border-radius: 25px;
+}
+/* SECTION 5 AWARD AND SOCIAL MEDIA */
+.our-awards{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.award-field ,.socialmedia-field{
+    display: flex;
+    flex-direction: column;
+    background: #F7F1E9;
+    border-radius: 25px;
+}
+
+.text-heading{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.carousel3{
+    border-radius: 25px;
+}
+.text-heading img{
+    height: 40px;
+    width: 40px;
+}
+.social-media img{
+    width: 241px;
+    height: 165px;
+    border-radius: 25PX;
+}
+
+.our-awards .row {
+  display: flex;
+  align-items: stretch; 
+}
+
+.award-field, .socialmedia-field {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* FOOTER */
+footer{
+    background-color: #4C3935;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}    
+footer,.h4{
+    color:#f06341 ; 
+}
+
+.footer-logo img{
+  height: 94px;
+  width: 215px;
+}
+.footer-links a{
+text-decoration: none;
+color: #F7F1E9;
+}
+ul li{
+  list-style: none;
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+/* .footer-links h4{
+  padding-left: 2rem;
+} */
+ul{
+  padding-left: 0;
+}
+
